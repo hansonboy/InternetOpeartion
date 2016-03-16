@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBB9A6831BD890680007F01A /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = CBB9A6821BD890680007F01A /* demo.json */; };
+		CBB9A6851BD8A9410007F01A /* 001.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB9A6841BD8A9410007F01A /* 001.png */; };
 		CBE9906B1BD886E5004D8EF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9906A1BD886E5004D8EF4 /* main.m */; };
 		CBE9906E1BD886E5004D8EF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE9906D1BD886E5004D8EF4 /* AppDelegate.m */; };
 		CBE990711BD886E5004D8EF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE990701BD886E5004D8EF4 /* ViewController.m */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CBB9A6821BD890680007F01A /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		CBB9A6841BD8A9410007F01A /* 001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 001.png; sourceTree = "<group>"; };
 		CBE990651BD886E5004D8EF4 /* POST_JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POST_JSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE990691BD886E5004D8EF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE9906A1BD886E5004D8EF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,12 +85,14 @@
 		CBE990671BD886E5004D8EF4 /* POST_JSON */ = {
 			isa = PBXGroup;
 			children = (
+				CBB9A6821BD890680007F01A /* demo.json */,
 				CBE9906C1BD886E5004D8EF4 /* AppDelegate.h */,
 				CBE9906D1BD886E5004D8EF4 /* AppDelegate.m */,
 				CBE9906F1BD886E5004D8EF4 /* ViewController.h */,
 				CBE990701BD886E5004D8EF4 /* ViewController.m */,
 				CBE990721BD886E5004D8EF4 /* Main.storyboard */,
 				CBE990751BD886E5004D8EF4 /* Images.xcassets */,
+				CBB9A6841BD8A9410007F01A /* 001.png */,
 				CBE990771BD886E5004D8EF4 /* LaunchScreen.xib */,
 				CBE990681BD886E5004D8EF4 /* Supporting Files */,
 			);
@@ -201,7 +207,9 @@
 			files = (
 				CBE990741BD886E5004D8EF4 /* Main.storyboard in Resources */,
 				CBE990791BD886E5004D8EF4 /* LaunchScreen.xib in Resources */,
+				CBB9A6831BD890680007F01A /* demo.json in Resources */,
 				CBE990761BD886E5004D8EF4 /* Images.xcassets in Resources */,
+				CBB9A6851BD8A9410007F01A /* 001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +426,7 @@
 				CBE9908A1BD886E5004D8EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBE9908B1BD886E5004D8EF4 /* Build configuration list for PBXNativeTarget "POST_JSONTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +435,7 @@
 				CBE9908D1BD886E5004D8EF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
